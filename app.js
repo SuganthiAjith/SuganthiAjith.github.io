@@ -12,8 +12,10 @@ while(i!==x)
 }
 console.log(s);*/
 //print an array vertically
-a.pop();
-a.push(5);
+//a.pop();
+//a.push(5);
+a.unshift(10);
+//a.shift();
 //for(i=0;i<a.length;i++)
 {
     console.log(a);
