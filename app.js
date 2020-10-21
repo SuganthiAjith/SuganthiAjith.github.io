@@ -25,7 +25,8 @@ console.log(i);
 i=a.splice(2,0,8,10);*/
 //console.log(i);
 //i=a.sort();
-i=a.lastIndexOf(5);
+//i=a.lastIndexOf(5);
+i=a.includes(5,2);
 console.log(i);
 
 
