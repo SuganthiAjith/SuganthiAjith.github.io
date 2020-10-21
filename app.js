@@ -1,6 +1,5 @@
 //reverse of a array
-var a=[1,5,5,7,5,9,5];// b=[3,5,7,8];
-var i;
+var a=[1,5,7,9];// b=[3,5,7,8];
 //i=a.reverse();
 //console.log(i);
 //tree height program
@@ -13,10 +12,12 @@ while(i!==x)
 }
 console.log(s);*/
 //print an array vertically
-/*for(i=0;i<a.length;i++)
+a.pop();
+a.push(5);
+//for(i=0;i<a.length;i++)
 {
-    console.log(a[i]);
-}*/
+    console.log(a);
+}
 //i=a.join("*");
 /*i=a.concat(b);
 console.log(i);
@@ -26,8 +27,9 @@ i=a.splice(2,0,8,10);*/
 //console.log(i);
 //i=a.sort();
 //i=a.lastIndexOf(5);
-i=a.includes(5,2);
-console.log(i);
+//i=a.includes(5,2);
+
+//console.log(i);
 
 
 
