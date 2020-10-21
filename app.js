@@ -24,7 +24,8 @@ console.log(i);
 //i=a.toString(a);
 i=a.splice(2,0,8,10);*/
 //console.log(i);
-i=a.sort();
+//i=a.sort();
+i=a.lastIndexOf(5);
 console.log(i);
 
 
