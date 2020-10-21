@@ -1,5 +1,5 @@
 //reverse of a array
-var a=[1,5,5,7,5,9,5], b=[3,5,7,8];
+var a=[1,5,5,7,5,9,5];// b=[3,5,7,8];
 var i;
 //i=a.reverse();
 //console.log(i);
@@ -19,8 +19,16 @@ console.log(s);*/
 }*/
 //i=a.join("*");
 /*i=a.concat(b);
-console.log(i);*/
-console.log(a.indexOf(5)+1);
+console.log(i);
+//console.log(a.indexOf(5)+1);
+//i=a.toString(a);
+i=a.splice(2,0,8,10);*/
+//console.log(i);
+i=a.sort();
+console.log(i);
+
+
+
 
 
 
