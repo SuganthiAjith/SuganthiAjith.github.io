@@ -13,10 +13,13 @@ while(i!==x)
 }
 console.log(s);*/
 //print an array vertically
-for(i=0;i<a.length;i++)
+/*for(i=0;i<a.length;i++)
 {
     console.log(a[i]);
-}
+}*/
+i=a.join("*");
+console.log(i);
+
 
 
 
