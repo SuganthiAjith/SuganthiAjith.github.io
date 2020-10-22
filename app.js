@@ -29,14 +29,37 @@ i=a.splice(2,0,8,10);*/
 //i=a.lastIndexOf(5);
 //i=a.includes(5,2);
 //console.log(i);
-var x1=2, x2=0, j1=1, j2=2;
-while(x1!=x2)
+//var x1=0, x2=2, j1=1, j2=4;
+/*while(x1!=x2)
 {
     console.log("not yet");
     x1=x1+j1;
     x2=x2+j2;
 }
 console.log("meet");
+if(x1>x2)
+{
+    m1=x1;
+    m2=x2;
+}
+else{
+    m1=x2;
+    m2=x1;
+}
+k=m1-m2;
+if(k>0)
+{
+    console.log("infinity")
+}
+else{
+    console.log("meet")
+}*/
+var x=10, y=20;
+var a;
+a=x;
+x=y;
+y=a;
+console.log(x,y);
 
 
 
