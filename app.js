@@ -54,14 +54,49 @@ if(k>0)
 else{
     console.log("meet")
 }*/
-var x=10, y=20;
+/*var x=10, y=20;
 var a;
 a=x;
 x=y;
 y=a;
-console.log(x,y);
-
-
+console.log(x,y);*/
+/*var students=[
+{
+    'name': 'ajithkumar',
+    'mark' : 400,
+    'email': 'ajith20@gmail.com',
+    'mobnum': 9556791228
+},
+{
+    'name': 'suganthiajithkumar',
+    'mark' : 200,
+    'email': 's.suganthinathan20@gmail.com',
+    'mobnum': 9585091228
+},
+{
+    'name': 'pranav',
+    'mark' : 900,
+    'email': 'pranav20@gmail.com',
+    'mobnum': 9578091228
+},
+{
+    'name': 'prajna',
+    'mark' : 300,
+    'email': 'prajna20@gmail.com',
+    'mobnum': 9585091628
+}]
+//console.log(students['name']);
+for(prop in students)
+{
+    console.log(prop,students[prop]);
+}
+for(var i=0;i<students.length;i++)
+{
+    var student=students[i];
+    for(prop in student)
+{
+    console.log(prop,student[prop]);
+}}*/
 
 
 
